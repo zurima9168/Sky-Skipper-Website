@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto", sans-serif;   
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(33, 49, 189);
+    border: rgb(0, 0, 0) solid 5px;
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.home:hover {
+    text-decoration: underline;
+}
+
+.logo_writing_Sky {
+    color: #1770e4;
+}
+.logo_writing {
+    font-size: 50px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.logo_headline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info {
+    text-decoration: none;
+    color: black;
+}
+.info:hover {
+    text-decoration: underline;
+}
+
+.downloads {
+    text-decoration: none;
+    color: #1770e4;
+    border: black solid 2px;
+    border-radius: 8px;
+    padding: 8px 30px;
+}
+.downloads:hover {
+    text-decoration: underline;
+}
+
+.info_downloads {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.info_headline {
+    text-align: center;
+}
+
+.language-selector {
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.info_controls_gamedescription {
+    display: flex;
+    margin-left: 50px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.game_description_text {
+    display: block;
+    text-align: center;
+    padding: 70px;
+    white-space: pre-wrap;
+    font-size: 30px;
+}
+
+.game_description_text_Sky {
+    color: #1770e4;
+}
