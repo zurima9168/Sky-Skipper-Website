@@ -82,3 +82,10 @@ th, td {
 .windows_linux {
     text-align: center;
 }
+
+.table {
+    text-decoration: none;
+}
+.table:hover {
+    text-decoration: underline;
+}
